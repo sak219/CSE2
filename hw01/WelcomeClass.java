@@ -8,18 +8,14 @@ public class WelcomeClass{
     //Main Method
     public static void main(String[] args){
 
-//Body of the Program
-System.out.println("  -----------");
-System.out.println("  | WELCOME |");
-System.out.println("  -----------");
-System.out.println("  ^  ^  ^  ^  ^  ^");
-System.out.println(" / \\/ \\/ \\/ \\/ \\/ \\ ");
-System.out.println("|-S--A--K--2--1--9-|");
-System.out.println(" \\ /\\ /\\ /\\ /\\ /\\ /");
-System.out.println("  v  v  v  v  v  v");
-//Individual Message
-System.out.println("Both of my parents are immigrants from Ireland,");
-System.out.println("and each summer I go there to play golf with my dad.");
-
+int i=0;
+while (i<=10){
+  System.out.println(i);
+  i++;
+  if(i==8){
+    break;
+    i=14;
+  }
+}
 }
 }
