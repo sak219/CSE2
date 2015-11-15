@@ -32,6 +32,9 @@ public class coinFlip{
     }
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
+        int z = 1;
+        int k = 1;
+        while(z == k){
         System.out.println("Enter a number between 0 and 100");
         int q = scan.nextInt();
         if(q == 0){
@@ -41,6 +44,6 @@ public class coinFlip{
         }else{
             flip(q);
         }
-        
+        }
     }
 }
